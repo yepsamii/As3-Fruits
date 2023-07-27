@@ -17,6 +17,7 @@
             font-family: 'Lato', sans-serif;
         }
     </style>
+    <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 
 <body class="lato">
@@ -24,12 +25,48 @@
 
     </header>
     <main>
-
+        <section class="flex justify-between  px-32 my-12">
+            <div>
+                <h2 class="text-[#121212] text-5xl font-extrabold">Deal of the day</h2>
+                <p class="text-[#12121299] text-base font-medium my-6">
+                    Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br>Latin
+                    literature from 45 BC, making it over 2000 years old.
+                </p>
+            </div>
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                <div class="flex flex-col">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:15;"></span>
+                    </span>
+                    days
+                </div>
+                <div class="flex flex-col">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                    </span>
+                    hours
+                </div>
+                <div class="flex flex-col">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:24;"></span>
+                    </span>
+                    min
+                </div>
+                <div class="flex flex-col">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:48;"></span>
+                    </span>
+                    sec
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer footer-center px-auto py-24 bg-[#121212] text-base-content rounded">
         <div class="flex items-center justify-center gap-4">
             <div><img src="images/logo.png" alt=""></div>
-            <div><h1 class="text-white font-bold text-4xl text-right">Fruit Burst</h1></div>
+            <div>
+                <h1 class="text-white font-bold text-4xl text-right">Fruit Burst</h1>
+            </div>
         </div>
         <div class="grid grid-flow-col gap-14">
             <a class="link link-hover text-white text-base font-bold text-center">Home</a>
